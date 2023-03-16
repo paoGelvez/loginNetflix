@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Roboto', sans-serif; ;
+}
+.loginpage{
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.445)), url(Netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+@media (max-width: 740px){
+    .loginpage{
+        background: #000;
+    }
+}
+img.icono{
+    width: 165px;
+    height: 80px;
+    position: relative;
+    bottom: 1px;
+    left: 40px;
+    z-index: 100;
+}
+@media (max-width: 740px){
+    img .icono{
+        width: 165px;
+    }
+}
+
+.formulario{
+    color: ghostwhite;
+    background-color:  rgba(0,0,0,0.6);
+    border-radius: 5px;
+    margin: 40px auto 100px;
+    padding: 70px 60px 150px ;
+    width: 450px;
+}
+@media (max-width: 740px){
+    .formulario{
+        background: transparent;
+        margin: 0;
+        padding: 70px 40px 90px;
+    }
+}
+.formulario h1{
+    margin: 0 0 25px;
+    font-size: 30px;
+}
+.formulario input{
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario input{
+background-color: #353535;
+font-size: 15px;
+outline: none;
+margin-bottom: 20px;
+padding: 0 20px ;
+}
+
+.formulario input[type="text"] ::-webkit-input-placeholder,
+.formulario input[type="password"] ::-webkit-input-placeholder{
+    color: #949494;
+    font-size: 16px;
+} 
+
+.formulario input[type="submit"]{
+    background-color: red;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.formulario .check{
+    color: #949494;
+    margin: 0;
+    margin: top 12px;;
+    padding: 0;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}´
+.formulario .check .recordar{
+    display: flex;
+    align-items: center;
+}
+.check input{
+    width: 20px;
+    height: 20px;
+}
+.check label{
+    margin-left: 5px;
+    width: 100%;
+}
+
+.help   a{
+    text-decoration: none;
+    color: #949494;
+}
+
+.help  a:hover{
+    text-decoration: underline;
+}
+
+.suscribirse a{
+    margin-left: 5px;
+    width: 100%;
+    text-decoration: none;
+   color: #fff;
+}
+
+p {
+    margin: 15px;
+    color: #949494; 
+}
+
+.proteccionrobot{
+    font-size: 10px;
+
+}
+.proteccionrobot a{
+    text-decoration: none;
+    color: #5656ff;
+}
+.infofinal{
+ padding: 25px 40px 50px;
+ background-color: #000000b4;
+ margin: auto;
+}
+
+.infofinal a:hover {
+    text-decoration: underline;
+}
+
+.infofinal{
+    
+    margin: auto;
+}
+.infofinal p{
+    color: gray;
+}
+.infofinal p a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.infofinal .linksfinal {
+    margin:20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.infofinal .linksfinal a {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+}
+.infofinal select{
+    background-color:#000;
+    border: 1px solid rgba(128, 128, 128, -466);
+    color: gray;
+    outline: none;
+    padding: 13px;
+}

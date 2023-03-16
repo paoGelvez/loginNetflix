@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="icono netflix.png">
+    <link rel="stylesheet" href="netflix.css">
+    <title>Netflix</title>
+    
+ </head>
+  <body>
+    <div class="loginpage">
+        
+            <img class="icono" src="netflix.png" alt="">
+         
+        
+       
+        <div class="formulario">
+          <form >
+            <div>
+                <div class="inicio">
+                  <h1>Inicia sesión</h1>
+                </div>
+                <input type="email" placeholder="Email o numero de telefono" id="email"> 
+                <span id="campook" style="color:white ;"></span>
+                <input type="password" placeholder="Contraseña" id="contrasena1">
+                <input type="button" value="ingresar"  id="ingresar">
+            </div> 
+            <div class="check">
+                <input type="checkbox" name="recordar" class="recordar" id="recordar" > </input>
+                <label for="recordar "> Recuérdame </label>
+                <div class="help">
+                    <a class="need" href="#">¿nesecitas Ayuda ? </a>
+                </div>
+            </div>
+            <div class="suscribirse">
+               <p>¿Primera vez en Netflix?  <a href="#">suscribete ahora</a></p>
+                <p class="proteccionrobot">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. <a href="#">Mas info.</a></p>
+                <!-- <p>La información recopilada por Google reCAPTCHA está sujeta a la Política de privacidad y a las Condiciones del servicio de Google, y se utiliza para proporcionar, mantener y mejorar el servicio de reCAPTCHA, así como para fines generales de seguridad (Google no la utiliza para personalizar publicidad). --></p>
+            </div>
+            
+          </form>
+        </div>
+        
+        <div class="infofinal">
+          <p>¿Preguntas? Llama al <a href="01 800 917 1564"> 01 800 917 1564</a></p>
+          <ul class="linksfinal">
+              <li class="linksfinal"><a href="#">Preguntas frecuentes</a></li>
+              <li class="linksfinal"><a href="#">Centro de ayuda</a></li>
+              <li class="linksfinal"><a href="#">Términos de uso</a></li>
+              <li class="linksfinal"><a href="#">Privacidad</a></li>
+              <li class="linksfinal"><a href="#">Preferencias de cookies</a></li>
+              <li class="linksfinal"><a href="#">Información corporativa</a></li>
+              
+          </ul>
+          <select name="language" id="language">
+              <option value="es">Español</option>
+              <option value="es">English</option>
+    
+          </select>
+        </div>
+
+
+    </div>
+     <script src="netflix.js"></script>
+  </body>
+</html>
